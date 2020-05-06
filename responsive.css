@@ -1,0 +1,46 @@
+@media only screen and (max-width:300px) {
+    header {
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .container {
+        /* margin: 0 5px 0 50px; */
+        margin: 17%;
+    }
+    .nav-bar {
+        display: grid;
+        justify-content: space-between;
+        width: 100%;
+        font-size: 20px;
+    }
+    .mode {
+        display: flex;
+        padding-top: 10px;
+        justify-content: space-between;
+    }
+    #upper-col,
+    #lower-col,
+    #lowest-col {
+        margin-bottom: 15px;
+    }
+    .upper-boxes {
+        display: grid;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .lower-box-1 {
+        display: grid;
+        justify-content: space-between;
+    }
+    .lower-box-2 {
+        display: grid;
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width:700px) {
+    /* remains the same */
+}
